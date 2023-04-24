@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
     res.send("hello world for get")
 })
 
+
 app.use('/api', router)
 
 var port = 3001;
